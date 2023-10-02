@@ -2,10 +2,12 @@
 
 ## Wprowadzenie
 
-Prosimy Cię o wykonanie testów 3 wersji tej samej aplikacji.
-Po otrzymaniu wyników Twoich testów oraz kodu testów automatycznych, który ma być odpowiedzią na poniższe zadanie będziemy chcieli ocenić Twój potencjał.
+Prosimy Cię o wykonanie testów 3 wersji tej samej aplikacji. 
+Po otrzymaniu wyników Twoich testów oraz **DLA CHĘTNYCH** kodu testów automatycznych - preferowany cypress, jako odpowiedzi na poniższe zadanie będziemy chcieli ocenić Twój potencjał.
 
 Rozwiązanie zadania chcielibyśmy otrzymać w terminie **5 dni**.
+
+Pracujemy na Ubuntu dlatego aplikację należy uruchomić na Ubuntu.
 
 ### uruchomienie frontendu
 
@@ -31,17 +33,17 @@ Dane do tabelki pobierane i aktualizowane poprzez wymianę komunikatów api pomi
 ### Wymagania
 
 - dane powinny być prezentowane w formie tabelarycznej
-- każda komóra przedstawia wartość stawki (rate) dla danej pary 
+- każda komórka przedstawia wartość stawki (rate) dla danej pary 
 kraju źródłowego (sourceCountry) i docelowego (destincationCountry)  
 - stawki powinny być edytowalne bezpośrednio 
 - zapis zmiany powinien być automatyczny w każdej komórce tabeli 
-- stawka powinna być z zakresu (0, 100> 
+- stawka powinna być z zakresu (0, 100>
 - po lewej stronie i nad tabelką powinna być wyświetlona legenda (Kraj źródłowy i Kraj docelowy)  
 - tabelka powinna zawierać nagłówki kolumn z kodami krajów docelowych (destintionCountry)  
 - tabelka powinna zawierać nagłówki wierszy z kodami krajów źródłowych (sourceCountry)  
-- aktywna komórka oraz odpowiadające jej nagłówki kolumn i wierszy powinny być oznaczone (np innym tłem)  
+- aktywna komórka oraz odpowiadające jej nagłówki kolumn i wierszy powinny być oznaczone (np. innym tłem)  
 - nagłówki wierszy i kolumn powinny zostawać w miejscu w przypadku przewijania tabelki w poziomie lub pionie  
-- tabelka powinno dać się zawężać (poprzez wybór kraju źródłowego i/lub docelowego - np z selectów)  
+- tabelka powinno dać się zawężać (poprzez wybór kraju źródłowego i/lub docelowego - np. z selectów)  
 - po zawężeniu tabelka pokazuje tylko jedną kolumnę (wybrany kraj docelowy), lub jeden wiersz (wybrany kraj źródłowy) lub jedną komórkę (wybrany kraj źródłowy i docelowy)  
 - jesli podczas zapisu zmiany przez api wystapi blad nalezy dana komórkę oznaczyć jako błędną  
 
@@ -65,9 +67,9 @@ w repozytorium zadania znajdziesz:
 
 ### Kryteria oceny
 
-Ocenimy Twój testy pod kątem:
+Ocenimy Twoje testy pod kątem:
 
-- ilości wychwyconych błedów
+- ilości wychwyconych błedów i poprawnego ich zaraportowania
 - ilości oraz jakości napisanych testów automatycznych
 
 ### Schemat pracy z repozytorium
@@ -77,8 +79,7 @@ Prosimy Cię o utworzenie kopii (NIE FORK'a) aktualnego repozytorium na bitbucke
 Pracuj na gałęzi odchodzącej od mastera. Zespół chciałby wykonać code review projektu, który wykonujesz.
 
 ### Kontakt i pytania
-Jeżeli opis zadania jest dla Ciebie niejasny, lub będziasz mieć jakiekolwiek pytania do zadania, śmiało pisz na adres ``kontakt@umbrella.limited``, postaramy
-się odpowiedzieć na pytania najszybciej jak się tylko da.
+Jeżeli opis zadania jest dla Ciebie niejasny, lub będziasz mieć jakiekolwiek pytania do zadania, śmiało pisz na adres ``kontakt@umbrella.limited``, postaramy się odpowiedzieć na pytania najszybciej jak się tylko da.
 
 Powodzenia
 
