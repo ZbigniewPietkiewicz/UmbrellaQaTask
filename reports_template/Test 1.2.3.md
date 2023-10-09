@@ -1,0 +1,13 @@
+Story:
+If I enter erroneous value that contains special character outside those allowed for decimal separator (.), it should not be saved.
+Steps:
+1. Select cell
+2. Fill out with new value that contains not allowed special characters
+3. There should be information on value not being saved
+4. Reload page
+5. New value should not be in edited cell
+Execution logs:
+
+Reproduction:
+
+Notes:
